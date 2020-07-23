@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tutor Profile Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-primary">
+      <a href="#" class="navbar-brand">Tutor Profile Form</a>
+    </nav>
+    <div class="container mt-3 card card-body p-4">
+    <h4 class="text-center">Add your Profile here</h4>
+    <input type="file" id="photo">
+    <div class="form-group">
+      <label for="Name">Full Name</label>
+      <input 
+      type="text" 
+      name="Full Name"
+      id="userFullName"
+      class="form-control"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Email">Email</label>
+      <input 
+      type="Email" 
+      name="Email"
+      id="userEmail"
+      class="form-control"
+      />
+      </div>
+      <div class="form-group">
+        <label for="Subject">Subject</label>
+        <input 
+        type="text" 
+        name="Subject"
+        id="userSubject"
+        class="form-control"
+        />
+        </div>
+      
+    <div class="form-group">
+      <label for="Qualification">Qualifications</label>
+      <input 
+      type="text" 
+      name="Qualification"
+      id="userQualification"
+      class="form-control"
+      />
+      </div>
+       <button id="submit" class="btn btn-primary" position:center >Submit</button>
+    </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-firestore.js"></script> 
+    <script src="index.js"></script>
+  </body>
+</html>
